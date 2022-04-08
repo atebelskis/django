@@ -1,6 +1,6 @@
 from django.db import models
 
-class Member(models.Model):
+class Post(models.Model):
     name = models.CharField(max_length=200)
     email = models.EmailField(blank=True, null=True)
     models.EmailField(blank=True, null=True)

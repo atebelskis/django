@@ -1,12 +1,12 @@
 from django import forms
-from .models import Member
+from .models import Post
 
 class CreatePostForm(forms.ModelForm):
     class Meta:
-        model = Member
+        model = Post
         fields = '__all__'
 
 class EditPostForm(forms.ModelForm):
     class Meta:
-        model = Member
+        model = Post
         fields = '__all__'
